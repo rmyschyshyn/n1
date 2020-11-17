@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="div_first">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam odit reiciendis soluta illum eum quas!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam odit reiciendis soluta illum eum quas!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam odit reiciendis soluta illum eum quas!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam odit reiciendis soluta illum eum quas!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam odit reiciendis soluta illum eum quas!</p>
+
+    </div>
+    <div class="front">
+        <button id="edit">edit</button>
+        <button id="style">style</button>
+    </div>
+    <div class="div_second">
+        <textarea name="texta" id="texta" value="" cols="100" rows="12"></textarea>
+        <p></p>
+        <button id="add">add</button>
+        <button id="save">save</button>
+    </div>
+
+    <div class="div_third">
+        <h5>Font Size:</h5>
+        <form name="f1">
+            <input type="radio" name="radio" value="12px">12px
+            <input type="radio" name="radio" value="14px" checked>14px
+            <input type="radio" name="radio" value="16px">16px
+            <input type="radio" name="radio" value="18px">18px
+            <input type="radio" name="radio" value="20px">20px
+        </form>
+        <h4>Font Family:</h4>
+        <select name="select" id="select" value="select">
+            <option value="cursive">cursive</option>
+            <option value="fantasy">fantasy</option>
+            <option value="monospace">monospace</option>
+            <option value="sans-serif" selected>sans-serif </option>
+
+        </select>
+        <h4>Colors:</h4>
+        <button id="color">Color of Text</button>
+        <button id="colorBack">Background color</button>
+        <div class="color_image">
+            <div class="color_image1 red" id="red"></div>
+            <div class="color_image1 blue" id="blue"></div>
+            <div class="color_image1 green" id="green"></div>
+            <div class="color_image1 black" id="black"></div>
+            <div class="color_image1 orange" id="orange"></div>
+            <div class="color_image1 pink" id="pink"></div>
+            <div class="color_image1 white" id="white"></div>
+            <div class="color_image1 purple" id="purple"></div>
+            <div class="color_image1 lightblue" id="lightblue"></div>
+        </div>
+        <div class="color_imageb">
+            <div class="color_image1 redb" id="redb"></div>
+            <div class="color_image1 blueb" id="blueb"></div>
+            <div class="color_image1 greenb" id="greenb"></div>
+            <div class="color_image1 blackb" id="blackb"></div>
+            <div class="color_image1 orangeb" id="orangeb"></div>
+            <div class="color_image1 pinkb" id="pinkb"></div>
+            <div class="color_image1 whiteb" id="whiteb"></div>
+            <div class="color_image1 purpleb" id="purpleb"></div>
+            <div class="color_image1 lightblueb" id="lightblueb"></div>
+        </div>
+        <h4>Style:</h4>
+        <form name="f2">
+            <input type="checkbox" name="bold" value="bold">Bold text
+            <input type="checkbox" name="cursive" value="cursive">Cursive
+        </form>
+    </div>
+    <div class="div_fourty">
+        <h1>Choose what you want:</h1>
+        <form name="f3">
+            <input type="radio" name="table" id="radiotable">table
+            <input type="radio" name="table" id="radiolist">list
+            <div class="table">
+                Count TR:
+                <input type="text" id="table1" placeholder="Count TR:">
+                <p></p>
+                Count TD:
+                <input type="text" id="table2" placeholder="Count TD:">
+                <h1>Add style to your table:</h1>
+                Width of TD:
+                <input type="text" id="table3" placeholder="Width of TD:">
+                <p></p>
+                Height of TD:
+                <input type="text" id="table4" placeholder="Height of TD:">
+                <p></p>
+                Width of border:
+                <input type="text" id="table5" placeholder="Width:">
+                Type of border:
+                <select name="tableselect" id="tableselect">
+                    <option value="solid" id="solid">solid</option>
+                    <option value="dashed" id="dashed">dashed</option>
+                    <option value="dotted" id="dotted">dotted </option>
+                </select>
+                Color of border:
+                <select name="colorselect" id="colorselect">
+                    <option value="black" id="black" selected>black</option>
+                    <option value="red" id="red">red</option>
+                    <option value="blue" id="blue">blue </option>
+                    <option value="green" id="green">green </option>
+                </select>
+                <p></p>
+                <input type="button" value="Create table" id="tablebutton">
+            </div>
+            <div class="table_second">
+                Count Li:
+                <input type="text" placeholder="Count Li:" id="text_table_second">
+                <p></p>
+                Type of marks:
+                <select name="select_table_second" id="select_table_second">
+                    <option value="circle">circle</option>
+                    <option value="disc">disc</option>
+                    <option value="square">square</option>
+                </select>
+                <p></p>
+                <input type="button" value="Create list" id="tablebuttonlist">
+            </div>
+    </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
